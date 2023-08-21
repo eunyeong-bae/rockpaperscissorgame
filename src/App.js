@@ -2,7 +2,8 @@ import { useState } from "react";
 import "./App.css";
 import Box from "./component/Box";
 
-// 1. 박스 2개 (타이틀,사진, 결과)
+// 로직
+//1. 박스 2개 (타이틀,사진, 결과)
 //2. 가위 바위 보 버튼이 있다
 //3. 버튼을 클릭하면 클릭한 값이 박스에 보임
 //4.컴퓨터는 랜덤하게 아이템 선택이 된다
@@ -50,7 +51,7 @@ function App() {
   };
 
   const judgement = (user, computer) => {
-    console.log("user", user, "computer", computer);
+    // console.log("user", user, "computer", computer);
 
     // user == computer tie
     // user == rock, computer == "scissors" user 이긴거지
